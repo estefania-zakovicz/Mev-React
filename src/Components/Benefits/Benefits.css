@@ -1,0 +1,45 @@
+.benefits_1 {
+    position: relative;
+    background-color: aquamarine;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.bene{
+    background-color: blueviolet;
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.bene img{
+    position: relative;
+    width: 400px;
+}
+
+.texto {
+    text-align: center;
+    background-color: blue;
+    
+    backdrop-filter: blur(20px);
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    /* transform: translate(-20px, 20px); */
+}
+
+.texto h3{
+    font-size: 25px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.texto p{
+    font-size: 18px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
