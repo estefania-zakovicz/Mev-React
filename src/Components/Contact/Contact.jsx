@@ -7,6 +7,7 @@ import location_icon from "../../assets/location-icon.png";
 import icons_1 from "../../assets/whatsapp.png";
 import icons_2 from "../../assets/instagram.png";
 import icons_3 from "../../assets/facebook.png";
+import white_arrow from '../../assets/white-arrow.png';
 
 const Contact = () => {
   const [result, setResult] = React.useState("");
@@ -87,8 +88,8 @@ const Contact = () => {
             placeholder="Ingrese aquí su mensaje"
             required
           ></textarea>
-          <button type="submit" className="btn">
-            Enviar
+          <button type="submit" className="btn dark-btn">
+            Enviar <img src={white_arrow} alt="" />
           </button>
         </form>
         <span>{result}</span>
