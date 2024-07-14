@@ -6,6 +6,7 @@ import Title from "./Components/Title/Title";
 import Sistem from "./Components/Sistem/Sistem";
 import Contact from "./Components/Contact/Contact";
 
+
 const App = () => {
   return (
     <div>
@@ -18,6 +19,7 @@ const App = () => {
       <Sistem />
       <Title title='Contacto'/>
       <Contact/>
+     
       
       </div>
     </div>
