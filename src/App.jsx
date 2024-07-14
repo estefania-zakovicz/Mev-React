@@ -3,7 +3,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import Hero from "./Components/Hero/Hero";
 import Benefits from "./Components/Benefits/Benefits";
 import Title from "./Components/Title/Title";
-import Contact from "./Components/Contact/Contact";
+import Sistem from "./Components/Sistem/Sistem";
 
 const App = () => {
   return (
@@ -13,7 +13,7 @@ const App = () => {
       <div className="benefits_1">
       <Title title='Sobre Mev'/>
       <Benefits />
-      <Contact />
+      <Sistem />
       </div>
     </div>
   );

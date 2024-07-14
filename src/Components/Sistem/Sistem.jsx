@@ -1,14 +1,14 @@
 import React from 'react'
-import './Contact.css'
-import contact_video from '../../assets/video.mp4'
+import './Sistem.css'
+import sistem_video from '../../assets/video.mp4'
 
-const Contact = () => {
+const Sistem = () => {
   return (
-    <div className='contact header'>
-       <div className="contact-left">
-        <video src={contact_video} className='contact-video'></video>
+    <div className='sistem header'>
+       <div className="sistem-left">
+        <video src={sistem_video} className='sistem-video'></video>
        </div>
-       <div className="contact-right">
+       <div className="sistem-right">
         <h3>Haz una prueba gratuita</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus officia eos ad laborum dicta ratione, dolores soluta est, ipsam harum maiores obcaecati natus laudantium. Vitae, unde. Quas dolorem nesciunt hic.</p>
        </div>
@@ -16,4 +16,4 @@ const Contact = () => {
   )
 }
 
-export default Contact
+export default Sistem

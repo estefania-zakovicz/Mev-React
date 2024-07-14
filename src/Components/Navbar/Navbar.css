@@ -40,4 +40,7 @@
 
 .dark-nav{
     background: black;
+    padding-bottom: 0;
+    padding-top: 0;
+    transition: 0.5s;
 }
