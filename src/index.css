@@ -46,3 +46,15 @@ a{
 /* .btn hover::before{
   background: #212121;
 } */
+
+/* ----- media query ------*/
+
+@media (max-width: 1200px){
+  .header{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+/*   .btn{
+    padding: 14px 22px;
+  } */
+}
