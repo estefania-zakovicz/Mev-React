@@ -37,3 +37,7 @@
 .navbar a:hover::before{
     width: 100%;
 }
+
+.dark-nav{
+    background: black;
+}

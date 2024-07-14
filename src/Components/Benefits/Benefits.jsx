@@ -12,7 +12,7 @@ const Benefits = () => {
         <div className="texto">
           <h3>Cómodo - Todo en un sólo paso</h3>
           <p>
-            Para el cliente, en la comodidad y seguridad de su celular, puede
+            El cliente, en la comodidad y seguridad de su celular, puede
             ver el menú, elegir lo que quiera consumir y sus cantidades, y
             pagar. Su pedido llegará a su mesa sin más intervención. Como MEV
             integra los métodos de pago de Mercado Pago y MODO, puede optar con
@@ -50,13 +50,13 @@ const Benefits = () => {
         <p>
           “El tiempo es oro” y nada mejor que evitar la espera. MEV está hecho
           para que sea rápido: Cada vez que los clientes entran en un local, se
-          sientan a la mesa, el sistema evitará que tengan que esperar a ser
+          sientan a la mesa, el sistema: evitará que tengan que esperar a ser
           atendidos; evitará que se realicen los pedidos al mozo; evitará que,
           al terminar de consumir lo pedido, deba pedir la cuenta, pagar y
           esperar el comprobante. MEV evitará que todo ese tiempo se reste al
           cliente y al negocio. Los clientes podrán hacer sus pedidos en menor
-          tiempo y el negocio brindará un mejor servicio y una ganancia mayor al
-          contar con un mayor flujo de clientes.
+          tiempo y el negocio brindará un mejor servicio y mayor ganancia,  al
+          contar con un aumento en el flujo de clientes.
         </p>
         </div>
       </div>

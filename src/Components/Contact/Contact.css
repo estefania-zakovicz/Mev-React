@@ -1,0 +1,33 @@
+.contact{
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.contact-left{
+    flex-basis: 52%;
+}
+
+.contact-right{
+    flex-basis: 40%;
+}
+
+.contact-video{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.contact h3{
+    font-weight: 600;
+    font-weight: 16px;
+    color: black;
+}
+
+.contact p{
+    font-size: 15px;
+    color: black;
+    margin: 10px 0;
+    max-width: 400px;
+}
