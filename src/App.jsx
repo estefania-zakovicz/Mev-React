@@ -4,6 +4,7 @@ import Hero from "./Components/Hero/Hero";
 import Benefits from "./Components/Benefits/Benefits";
 import Title from "./Components/Title/Title";
 import Sistem from "./Components/Sistem/Sistem";
+import Contact from "./Components/Contact/Contact";
 
 const App = () => {
   return (
@@ -15,6 +16,8 @@ const App = () => {
       <Benefits />
       <Title title='Sistema'/>
       <Sistem />
+      <Title title='Contacto'/>
+      <Contact/>
       
       </div>
     </div>
