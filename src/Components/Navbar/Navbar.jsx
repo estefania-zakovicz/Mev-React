@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./Navbar.css";
 import logo from '../../assets/mev_logo.png'
+import { Link } from "react-scroll";
 
 const Navbar = () => {
 
@@ -16,13 +17,14 @@ useEffect(()=>{
     <div className="header">
     <nav className={`navbar ${sticky? 'dark-nav' : ''}`}>
         <img src={logo} alt="logo" className="logo"/>
-     
-        <a href="/">Inicio</a>
-        <a href="/">Sobre Mev</a>
-        <a href="/">Sistema</a>
-        <a href="/">Contacto</a>
-        <a href="/">Iniciar sesión</a>
-        <a href="/">Idiomas</a>
+        <ul>
+          <li><Link to="home" smooth={true} offset={0} duration={500}>Inicio</Link></li>
+          <li><Link to="sobreMev" smooth={true} offset={0} duration={500}>Sobre Mev</Link></li>
+          <li><Link to="Sistema" smooth={true} offset={0} duration={500}>Sistema</Link></li>
+          <li><Link to="Contacto" smooth={true} offset={0} duration={500}>Contacto</Link></li>
+          <li>Iniciar sesión</li>
+          <li>Idiomas</li>
+        </ul>
       </nav>
       </div>
   );

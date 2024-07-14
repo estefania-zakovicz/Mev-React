@@ -5,6 +5,7 @@ import Benefits from "./Components/Benefits/Benefits";
 import Title from "./Components/Title/Title";
 import Sistem from "./Components/Sistem/Sistem";
 import Contact from "./Components/Contact/Contact";
+import Footer from "./Components/Footer/Footer";
 
 
 const App = () => {
@@ -19,7 +20,7 @@ const App = () => {
       <Sistem />
       <Title title='Contacto'/>
       <Contact/>
-     
+      <Footer/>
       
       </div>
     </div>

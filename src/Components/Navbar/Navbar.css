@@ -6,24 +6,25 @@
     padding: 50px 10%;
     background: transparent;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    z-index: 100;
+    justify-content: space-between;
+    z-index: 10;
 }
 
 .logo{
     width: 150px;
 }
 
-.navbar a{
-    position: relative;
+.navbar ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 5px 20px;
     font-size: 22px;
     color: #fff;
-    font-weight: 500;
-    margin-left: 40px;
+    font-weight: 500; 
 }
 
-.navbar a::before{
+.navbar li::before{
     content: '';
     position: absolute;
     top: 100%;
@@ -34,7 +35,7 @@
     transition: .3s;
 }
 
-.navbar a:hover::before{
+.navbar li:hover::before{
     width: 100%;
 }
 
