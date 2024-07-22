@@ -1,103 +1,102 @@
-.navbar{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 50px 10%;
-    background: transparent;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    z-index: 10;
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 50px 10%;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 10;
 }
 
-.logo{
-    width: 150px;
+.logo {
+  width: 150px;
 }
 
 .navbar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 50px 10%;
-    background: transparent;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    z-index: 10;
-  }
-  
-  .logo {
-    width: 150px;
-  }
-  
-  .navbar ul li {
-    display: inline-block;
-    list-style: none;
-    margin: 5px 20px;
-    font-size: 22px;
-    color: #fff;
-    font-weight: 500;
-    position: relative; /* Agrega esta línea */
-  }
-  
-  .navbar li::before {
-    content: '';
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 0;
-    height: 2px;
-    background: #fff;
-    transition: width 0.3s;
-  }
-  
-  .navbar li:hover::before {
-    width: 100%;
-  }
-
-.dark-nav{
-    background: black;
-    padding-bottom: 5px;
-    padding-top: 5px;
-    transition: 0.5s;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 50px 10%;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 10;
 }
 
-.dark-nav img{
-    width: 100px;
+.logo {
+  width: 150px;
 }
 
-.menu-icon{
+.navbar ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 5px 20px;
+  font-size: 22px;
+  color: #fff;
+  font-weight: 500;
+  position: relative; /* Agrega esta línea */
+}
+
+.navbar li::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #fff;
+  transition: width 0.3s;
+}
+
+.navbar li:hover::before {
+  width: 100%;
+}
+
+.dark-nav {
+  background: rgb(154, 151, 151);
+  padding-bottom: 5px;
+  padding-top: 5px;
+  transition: 0.5s;
+}
+
+.dark-nav img {
+  width: 100px;
+}
+
+.menu-icon {
   display: none;
 }
 
-
 /* ----- media query ------*/
 
-@media (max-width: 1150px){
-  .logo{
+@media (max-width: 1150px) {
+  .logo {
     width: 120px;
   }
-  .navbar ul li{
+  .navbar ul li {
     margin: 10px 15px;
   }
 }
 
-@media (max-width: 1038px){
-  .logo{
+@media (max-width: 1038px) {
+  .logo {
     width: 100px;
   }
-  .navbar ul li{
+  .navbar ul li {
     margin: 10px 10px;
   }
 }
 
-@media (max-width: 935px){
-  .navbar{
+@media (max-width: 942px) {
+  .navbar {
     padding: 15px 5;
   }
-  .navbar ul{
+  .navbar ul {
     position: fixed;
     top: 0;
     right: -200px;
@@ -108,16 +107,18 @@
     padding-top: 70px;
     transition: 0.5s;
   }
-  .navbar ul li{
+  .navbar ul li {
     display: block;
     margin: 20px 30px;
   }
-  .menu-icon{
+  .menu-icon {
     display: block;
     width: 30px;
     cursor: pointer;
   }
-.hide-mobile-menu{
-  right: 200px;
-}
+  .hide-mobile-menu {
+    right: -200px;
+    
+
+  }
 }

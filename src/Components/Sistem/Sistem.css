@@ -8,15 +8,25 @@
 
 .sistem-left{
     flex-basis: 52%;
+    position: relative;
 }
 
 .sistem-right{
     flex-basis: 40%;
 }
 
-.sistem-video{
+.sistema-img{
     width: 100%;
     border-radius: 10px;
+}
+
+.play-icon{
+    width: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
 }
 
 .sistem h3{

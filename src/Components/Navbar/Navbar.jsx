@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./Navbar.css";
 import logo from "../../assets/mev_logo.png";
-import menu_icon from '../../assets/menu-icon.png'
+import menu_icon from "../../assets/menu-icon.png";
 import { Link, ScrollLink } from "react-scroll";
 
 const Navbar = () => {
@@ -14,16 +14,15 @@ const Navbar = () => {
   }, []);
 
   const [mobileMenu, setMobileMenu] = useState(false);
-  const toggleMenu = ()=>{
-    mobileMenu ? setMobileMenu(false) : setMobileMenu (true)
-
-  }
+  const toggleMenu = () => {
+    mobileMenu ? setMobileMenu(false) : setMobileMenu(true);
+  };
 
   return (
     <div className="header">
       <nav className={`navbar ${sticky ? "dark-nav" : ""}`}>
         <img src={logo} alt="logo" className="logo" />
-        <ul className={mobileMenu? '' : 'hide-mobile-menu'}>
+        <ul className={mobileMenu ? "" : "hide-mobile-menu"}>
           <li>
             <Link to="hero" smooth={true} offset={0} duration={500}>
               Inicio
@@ -47,7 +46,12 @@ const Navbar = () => {
           <li>Iniciar sesión</li>
           <li>Idiomas</li>
         </ul>
-        <img src={menu_icon} alt="" className="menu-icon" onClick={toggleMenu} />
+        <img
+          src={menu_icon}
+          alt=""
+          className="menu-icon"
+          onClick={toggleMenu}
+        />
       </nav>
     </div>
   );
