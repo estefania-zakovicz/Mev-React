@@ -7,13 +7,13 @@ const Sistem = ({ setPlayState }) => {
   return (
     <div className="sistem header">
       <div className="sistem-left">
-        <img src={sistema} className="sistema-img"></img>
+        <img src={sistema_img} alt="" className="sistema-img"/>
         <img
           src={play_icon}
           alt=""
           className="play-icon"
           onClick={() => {
-            setPlayState(true);
+            setPlayState(true)
           }}
         />
       </div>
