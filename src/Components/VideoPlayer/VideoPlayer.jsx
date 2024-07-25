@@ -12,7 +12,7 @@ const VideoPlayer = ({ playState, setPlayState }) => {
 
   return (
     <div
-      className={`video-player $ {playState?'':'hide' }`}
+      className={`video-player ${playState ? "" : "hide"}`}
       ref={player}
       onClick={closePlayer}
     >
