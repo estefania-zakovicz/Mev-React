@@ -1,13 +1,13 @@
 import React from "react";
 import "./Benefits.css";
-import bene_1 from "../../assets/bene_1.jpg";
-import bene_2 from "../../assets/bene_2.jpg";
-import bene_3 from "../../assets/bene_3.jpg";
+import bene_1 from "../../assets/bene_1.png";
+import bene_2 from "../../assets/bene_2.png";
+import bene_3 from "../../assets/bene_3.png";
 
 const Benefits = () => {
   return (
     <div className="benefits_1 header">
-      <div className="bene">
+      <div className="bene fondo">
         <img src={bene_1} alt="" />
         <div className="texto">
           <h3>Cómodo - Todo en un sólo paso</h3>
