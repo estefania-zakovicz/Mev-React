@@ -1,44 +1,50 @@
 .benefits_1 {
-    position: relative;
-    background-color: aqua;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding-top: 40px;
-    padding-bottom: 60px;
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 40px;
+  padding-bottom: 60px;
 }
 
-.bene{
-    width: 100%;
-    display: flex;
-    margin-bottom: 20px;
+.bene {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  
 }
 
-.bene img{
-    position: relative;
-    width: 400px;
+.bene img {
+  width: 350px;
+  height: auto;
+  object-fit: cover;
 }
 
+.drop-shadow-md{
+    filter: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));
+}
 .texto {
-    text-align: center;
-    background-color: #fff;
-    backdrop-filter: blur(20px);
-    padding: 20px;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 10px;
-    /* transform: translate(-20px, 20px); */
+    
+  width: 1000px;
+  text-align: center;
+  
+  /* border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px); */
+  padding: 10px;
+  border-radius: 10px;
+  
 }
 
-.texto h3{
-    font-size: 25px;
-    margin-top: 40px;
-    margin-bottom: 40px;
+.texto h3 {
+  font-size: 25px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
-.texto p{
-    font-size: 18px;
-    margin-top: 40px;
-    margin-bottom: 40px;
+.texto p {
+  font-size: 18px;
+  margin: 20px;
+  margin-bottom: 40px;
 }
