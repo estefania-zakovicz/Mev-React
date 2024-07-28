@@ -7,7 +7,8 @@ import location_icon from "../../assets/location-icon.png";
 import icons_1 from "../../assets/whatsapp.png";
 import icons_2 from "../../assets/instagram.png";
 import icons_3 from "../../assets/facebook.png";
-import white_arrow from '../../assets/white-arrow.png';
+import white_arrow from "../../assets/white-arrow.png";
+import { Fade } from "react-awesome-reveal";
 
 const Contact = () => {
   const [result, setResult] = React.useState("");
@@ -58,14 +59,19 @@ const Contact = () => {
             <img src={location_icon} alt="" /> Posadas - Misiones - Argentina
           </li>
         </ul>
-        <div className="social-media">
-          <img src={icons_1} alt="" />
-          <img src={icons_2} alt="" />
-          <img src={icons_3} alt="" />
+        <div className="social-media flex justify-between">
+          
+            <img src={icons_1} alt="" />
+         
+          <Fade direction="bottom">
+            <img src={icons_2} alt="" />
+          </Fade>
+            <img src={icons_3} alt="" />
+          
         </div>
       </div>
 
-      <div className="contact-col">
+      <div className="contact-col text-white">
         <form onSubmit={onSubmit}>
           <label>Nombre</label>
           <input
@@ -88,8 +94,11 @@ const Contact = () => {
             placeholder="Ingrese aquí su mensaje"
             required
           ></textarea>
-          <button type="submit" className="btn dark-btn">
-            Enviar <img src={white_arrow} alt="" />
+          <button class="mt-8 group relative h-12 w-48 overflow-hidden rounded-lg bg-white text-xl shadow-lg shadow-cyan-500/50">
+            <div class="absolute inset-0 w-4 bg-blue-400 transition-all duration-[250ms] ease-out group-hover:w-full"></div>
+            <span class="relative text-blue-400 group-hover:text-white">
+              Enviar
+            </span>
           </button>
         </form>
         <span>{result}</span>

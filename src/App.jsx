@@ -19,10 +19,8 @@ const App = () => {
       <div className="benefits_1">
         <Title title="Sobre Mev" />
         <Benefits />
-        <div className="bg-red-300">
           <Title title="Sistema" />
           <Sistem setPlayState={setPlayState} />
-        </div>
         <Title title="Contacto" />
         <Contact />
         <Footer />

@@ -5,7 +5,7 @@ import play_icon from "../../assets/play-icon.png";
 
 const Sistem = ({ setPlayState }) => {
   return (
-    <div className="sistem header">
+    <div className="sistem header overflow-hidden rounded-lg bg-white text-xl shadow-lg shadow-cyan-500/50">
       <div className="sistem-left">
         <img src={sistema_img} alt="" className="sistema-img"/>
         <img

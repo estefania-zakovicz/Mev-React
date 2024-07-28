@@ -13,7 +13,7 @@ const Benefits = () => {
           <img src={bene_1} alt="" />
         </Fade>
         <Fade direction="right">
-          <div className="texto m-4 shadow-2xl">
+          <div className="texto m-4 shadow-2xl shadow-lg shadow-cyan-500/50">
             <h3>Cómodo - Todo en un sólo paso</h3>
             <p>
               El cliente, en la comodidad y seguridad de su celular, puede ver
@@ -30,7 +30,7 @@ const Benefits = () => {
 
       <div className="bene">
         <Fade direction="left">
-          <div className="texto m-4 shadow-2xl">
+          <div className="texto m-4 shadow-2xl shadow-lg shadow-cyan-500/50">
             <h3>Fácil - Metodología sencilla</h3>
             <p>
               Un sistema sencillo de usar, con todas las características
@@ -56,7 +56,7 @@ const Benefits = () => {
           <img src={bene_3} alt="" />
         </Fade>
         <Fade direction="right">
-          <div className="texto m-4 shadow-2xl">
+          <div className="texto m-4 shadow-2xl shadow-lg shadow-cyan-500/50">
             <h3>Rápido - Menor tiempo, mayor satisfacción</h3>
             <p>
               “El tiempo es oro” y nada mejor que evitar la espera. MEV está
