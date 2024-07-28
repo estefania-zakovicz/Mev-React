@@ -13,7 +13,7 @@ const App = () => {
   const [playState, setPlayState] = useState(false);
 
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <Navbar />
       <Hero />
       <div className="benefits_1">

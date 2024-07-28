@@ -23,12 +23,3 @@
     font-weight: 500;
 }
 
-.hero-text .btn{
-    margin-top: 30px;
-    font-weight: 600;
-}
-
-.hero-text .btn:hover {
-    background-color: #1b67af;
-    color: #fff;
-  }

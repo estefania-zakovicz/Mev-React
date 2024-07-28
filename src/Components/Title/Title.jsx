@@ -4,7 +4,7 @@ import { Fade } from "react-awesome-reveal";
 
 const Title = ({ title }) => {
   return (
-    <Fade direction="bottom">
+    <Fade direction="bottom slow">
       <div className="title">
         <h2>{title}</h2>
       </div>
