@@ -3,11 +3,25 @@
 @tailwind components;
 @tailwind utilities;
 
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Outfit", sans-serif;
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+}
+*::-webkit-scrollbar-track {
+  border-radius: 8px;
+  background-color: transparent;
+  border: 1px solid transparent;
+}
+*::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background-color: cornflowerblue;
 }
 
 a{
